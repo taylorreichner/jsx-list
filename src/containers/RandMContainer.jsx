@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import CharacterList from '../components/characters/CharacterList';
-import getCharacters from '../services/RandMApi';
+import { getCharacters } from '../services/RandMApi';
 
 export default class RandMContainer extends Component {
     state = {
